@@ -38,7 +38,7 @@
                     let x = window.innerWidth / 2 + (window.innerHeight / 2 - 200) * Math.cos(((i*6-84)/180)*Math.PI);
                     let y =window.innerHeight / 2 + (window.innerHeight / 2 - 200) * Math.sin(((i*6-84)/180)*Math.PI);
 
-                    képek += `<img src="óra3.png" style="left: ${x}px; top: ${y}px;">`;
+                    képek += `<img alt="clock" src="óra3.png" style="left: ${x}px; top: ${y}px;">`;
                 }
                 document.getElementById("kép").innerHTML = képek;
                 képek = "";
